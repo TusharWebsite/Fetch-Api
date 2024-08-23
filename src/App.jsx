@@ -13,7 +13,7 @@ function App() {
       ) : (
         <div className='image-list'>
             {apiData && apiData.map((item)=>(
-              <div key={item.id} className='image-items'>7
+              <div key={item.id} className='image-items'>
                 <img src={item.url} alt={item.title} className='image' />
                 <p>{item.title}</p>
               </div>
